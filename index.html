@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Paulle Mahouangou </title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <script src="scripts/getdates.js" defer ></script>
 </head>
 <body>
-    <h1>Hi this is Paulle !</h1>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Paulle Mahouangou</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27">Scripture</a></li>
+                <li><a href="">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="selfpresentation">
+                <h3>My name is Paulle Mahouangou. I am from the Republic of Congo, I was born at Brazzaville. 
+                    I have one older sister and one younger brother.
+                    I am currently living in France since 3 years. I actually work as an administrative assistant at the Paris temple patron housing.
+                    I like singing and listening to music. I always have a song in my head, it helps me focus and keep good thoughts.
+                </h3>
+                <img id="profile"
+                src="images/Profile.jpg"
+                alt="My picture"/>
+            
+                <h4>The Republic of Congo</h4>
+                <figure id="congo"> 
+                <img 
+                src="images/congoflag.png" 
+                alt="Official Flag of The Republic of Congo ">
+                <figcaption>Official Flag</figcaption> 
+                </figure>
+    
+                <h5>
+                    The Republic of Congo, also known as Congo-Brazzaville, is a Central African country with tropical forest reserves that
+                    are home to gorillas. Its capital Brazzaville faces Kinshasa, the capital of the Democratic Republic of Congo, on the
+                    other side of the Congo River (two of the world's closest capitals).
+                </h5>
+                
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Ressources</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/results?search_query=html+and+css+tutorial+for+beginners">Youtube</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools courses</a></li>
+                <li><a href="https://archive.org/details/cours-complet-html-et-css-2020/page/n5/mode/2up">Archive</a></li>
+                <li><a href="https://learning.linkedin.com/?src=pa-bi&trk=sem-bi_campid.484928044_asid.1286429927196248_crid.80401979447584_kw.linkedin%20learning_d.c_tid.kwd-80402164232767:loc-66_n.o_mt.e_geo.125579&mcid=7198411097454903362&cid=&gclid=e16d2d5bc2ad16ba77db4a6afb83a8a4&gclsrc=3p.ds&msclkid=e16d2d5bc2ad16ba77db4a6afb83a8a4&utm_source=bing&utm_medium=cpc&utm_campaign=LLS-F_EMEA_FR_T2_EN_CONV_SEM_MSA_NA_ALL_NA_NA_Core_NA_Headterms_Brand_Mixed_7198411097454903362&utm_term=linkedin%20learning&utm_content=Brand%20-%20Headterms">
+                    LinkedIn learning</a></li>
+            </ul>             
+                    
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy <span id="currentYear"></span> - <span id="highlight">Paulle Mahounagou</span> - France </p>
+        <p> Last modified : <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>

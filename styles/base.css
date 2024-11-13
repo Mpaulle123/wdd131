@@ -1,0 +1,191 @@
+
+body
+{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer
+{
+    display: flex;
+    background-color: midnightblue;
+
+}
+nav
+{
+    background-color: black;
+}
+
+nav ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+nav li
+{
+    list-style-type: none;
+
+}
+
+nav a
+{
+    display: block;
+    color: white;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+header h1
+{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+header
+{
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+
+footer p
+{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer
+{
+    display: grid;
+    grid-row: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card h2
+{
+    background-color: rgb(3, 3, 79);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+
+}
+.card ul
+{
+    align-content: center;
+    margin-top: 150px;
+
+}
+
+.card li
+{
+    margin: 10px;
+}
+
+
+.selfpresentation
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.797);
+    align-content: center;
+    align-items: center;
+}
+.selfpresentation h3
+{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+.selfpresentation #profile
+{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.selfpresentation h4
+{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    align-items: center;
+    text-align: center;
+    border-bottom-style:groove;
+    border-bottom-color:red ;
+    font-style:italic; 
+    
+}
+
+.selfpresentation #congo
+{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-radius: 5px;
+    margin: 10px;
+    align-items:center;
+    align-content: space-around;
+}
+figcaption
+{
+    font-size: 16px;
+    color: black;
+    margin:0;
+}
+.selfpresentation h5
+{
+    grid-column: 2/5;
+    grid-row: 3/4; 
+    margin: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#congo
+{
+    text-align: center;
+}
+
+#highlight
+{
+    color: yellow;
+}
+
