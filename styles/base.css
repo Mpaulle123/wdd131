@@ -1,4 +1,3 @@
-
 body
 {
     min-height: 100vh;
@@ -7,6 +6,7 @@ body
     display: grid;
     grid-template-rows: auto 1fr auto;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 header, footer
@@ -73,7 +73,7 @@ footer p
 footer
 {
     display: grid;
-    grid-template-rows: 1 auto;
+    grid-template-rows: 1fr auto;
     align-items: center;
     justify-content: center;
 }
@@ -89,6 +89,7 @@ main
     margin: 20px;
     border-radius: 10px;
     border: 1px solid black;
+    padding: 15px;
 }
 
 .card h2
@@ -155,7 +156,7 @@ main
     
 }
 
-.selfpresentation #congo
+#congo
 {
     grid-column: 1/2;
     grid-row: 3/4;
@@ -188,4 +189,3 @@ figcaption
 {
     color: yellow;
 }
-
