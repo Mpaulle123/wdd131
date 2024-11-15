@@ -4,7 +4,7 @@ body
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto auto;
     font-family: "Fira Sans", sans-serif;
     font-weight: 200;
     box-sizing: border-box;
@@ -28,7 +28,6 @@ nav ul
     flex: 1 1 auto;
     justify-content: space-around;
     align-items: center;
-
     
 }
 nav li
@@ -84,7 +83,8 @@ main
 {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    max-width: 1200px;
+    max-width: 12000px;
+    
 
 }
 .card {
