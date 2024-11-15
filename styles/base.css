@@ -60,7 +60,7 @@ header h1
 header
 {
     display: grid;
-    grid-row: 1fr 1fr;
+    grid-template-rows: 1fr auto;
 }
 
 footer p
@@ -73,7 +73,7 @@ footer p
 footer
 {
     display: grid;
-    grid-row: auto auto;
+    grid-template-rows: 1 auto;
     align-items: center;
     justify-content: center;
 }
